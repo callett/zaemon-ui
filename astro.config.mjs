@@ -50,9 +50,7 @@ export default defineConfig({
 			},
 		}),
 		svelte(),
-		sitemap({
-			serialize: (page) => [{ url: page }],
-		}),
+		sitemap(),
 	],
 	markdown: {
 		remarkPlugins: [
